@@ -1,0 +1,11 @@
+welcome: "Welcome to the calculator! What's your name?"
+invalid_name: "Hmm... that didn't go through. Why don't you try typing in your name again?"
+greeting: 'Hi, %{name}!'
+first_number: "What's the first number?"
+second_number: "What's the second number?"
+invalid_number: "Hmm... that doesn't look like a valid number. Let's try that again."
+invalid_operator: "You must choose 1 (add), 2 (subtract), 3 (multiply), or 4 (divide)."
+calculating: "Boop boop beep I'm doing some math..."
+show_result: "The result is %{result}."
+ask_continue: "Do you want to perform another calculation? (Y to calculate again)"
+goodbye: "Thank you for using the calculator. Goodbye!"
