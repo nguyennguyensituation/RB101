@@ -1,0 +1,52 @@
+welcome: "❤ ◆ ♠ ♣  LET'S PLAY BLACKJACK!  ♣ ♠ ◆ ❤"
+pre_bet_balance: |
+                  ____________________________________________
+
+                  WALLET: %{balance}  |  BET: %{bet}
+                  ____________________________________________
+dealer_turn_table: |
+                    ____________________________________________
+
+                    WALLET: %{balance}  |  BET: %{bet}
+                    ____________________________________________
+
+                    DEALER
+                    %{dealer_cards}
+                    ____________________________________________
+
+                    PLAYER
+                    %{player_cards}
+                    ____________________________________________
+
+player_turn_table: |
+                    ____________________________________________
+
+                    WALLET: %{balance}  |  BET: %{bet}
+                    ____________________________________________
+
+                    DEALER
+                    %{dealer_cards_hidden}
+                    ____________________________________________
+
+                    PLAYER
+                    %{player_cards}
+                    ____________________________________________
+ask_bet: "How much do you want to bet?"
+invalid_bet: "You don't have enough money. Try entering a different bet."
+player_score: "Your total: %{score}"
+player_blackjack: "You have blackjack!"
+dealer_blackjack: "The dealer has blackjack!"
+player_bust: "You bust!"
+dealer_bust: "The dealer busts!"
+player_hit_or_stay: "What would you like to do? (H)it or (S)tay"
+player_draw: "You draw %{card}"
+dealer_hit: "The dealer hits."
+player_stay: "You stay."
+dealer_stay: "The dealer stays."
+dealer_reveal: "Dealer shows their cards."
+player_win: "You win this round!"
+dealer_win: "The dealer wins this round."
+tie: "It's a tie."
+play_again: "Do you want to play again? (Y)es or (N)o"
+game_over: "You're broke! Better luck next time!"
+goodbye: "Thanks for playing!"
